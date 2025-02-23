@@ -29,7 +29,7 @@ Then navigate to the notebooks/ directory and open a notebook of interest.
 
 ## Citation
 ```graphql
-@article{your_paper_citation,
+@article{clark_2025,
   title={Semantic Resources for Managing Knowledge in Battery Research},
   author={Simon Clark, Corsin Battaglia, Ivano E. Castelli, Eibar Flores, Lukas Gold, Christian Punckt, Simon Stier, Philipp Veit},
   journal={ChemSusChem},
