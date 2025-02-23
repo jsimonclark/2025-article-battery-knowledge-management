@@ -1,0 +1,69 @@
+{
+    "@context": "https://w3id.org/emmo/domain/battery/context",
+    "rdfs:label": "1M LiPF6 in DMC:EC:EMC 1:1:1 (vol.) + 2 wt% VC",
+    "rdfs:comment": "This example demonstates how to create a semantic description of an electrolyte composition using terms and relationships from the BattINFO ontology.",
+    "@type": "Electrolyte",
+    "hasSolvent": {
+        "@type": "Solvent",
+        "hasConstituent": [
+            {
+                "@type": "EthyleneCarbonate",
+                "rdfs:label": "ethylene carbonate",
+                "hasProperty": {
+                    "@type": "MassFraction",
+                    "hasNumericalPart": {
+                        "@type": "RealData",
+                        "hasNumberValue": 0.334
+                    },
+                    "hasMeasurementUnit": "emmo:UnitOne"
+                }
+            },
+            {
+                "@type": "DiethylCarbonate",
+                "rdfs:label": "diethylene carbonate",
+                "hasProperty": {
+                    "@type": "MassFraction",
+                    "hasNumericalPart": {
+                        "@type": "RealData",
+                        "hasNumberValue": 0.333
+                    },
+                    "hasMeasurementUnit": "emmo:UnitOne"
+                }
+            },
+            {
+                "@type": "DimethylCarbonate",
+                "rdfs:label": "dimethyl carbonate",
+                "hasProperty": {
+                    "@type": "MassFraction",
+                    "hasNumericalPart": {
+                        "@type": "RealData",
+                        "hasNumberValue": 0.333
+                    },
+                    "hasMeasurementUnit": "emmo:UnitOne"
+                }
+            }
+        ]
+    },
+    "hasSolute": {
+        "@type": "LithiumHexafluorophosphate",
+        "hasProperty": {
+            "@type": "AmountConcentration",
+            "hasNumericalPart": {
+                "@type": "RealData",
+                "hasNumberValue": 1
+            },
+            "hasMeasurementUnit": "emmo:MolePerLitre"
+        }
+    },
+    "hasAdditive": {
+        "@type": "VinyleneCarbonate",
+        "hasProperty": {
+            "@type": "MassFraction",
+            "hasNumericalPart": {
+                "@type": "RealData",
+                "hasNumberValue": 0.02
+            },
+            "hasMeasurementUnit": "emmo:UnitOne"
+        }
+    }
+}

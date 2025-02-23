@@ -1,0 +1,41 @@
+{
+    "@context": "https://w3id.org/emmo/domain/battery/context",
+    "rdfs:label": "IFpR2032",
+    "rdfs:comment": "This example demonstates how to create a semantic description of a battery coin cell using terms and relationships from the BattINFO ontology.",
+    "@type": "CoinCell",
+    "hasElectrolyte": {
+        "@type": "OrganicElectrolyte"
+    },
+    "hasNegativeElectrode": {
+        "@type": "Electrode",
+        "hasActiveMaterial": {
+            "@type": "Graphite"
+        }
+    },
+    "hasPositiveElectrode": {
+        "@type": "Electrode",
+        "hasActiveMaterial": {
+            "@type": "LithiumIronPhosphate"
+        }
+    },
+    "hasProperty": [
+        {
+            "@type": "Mass",
+            "hasNumericalPart": {
+                "@type": "RealData",
+                "hasNumberValue": 3
+            },
+            "hasMeasurementUnit": "emmo:Gram"
+        },
+        {
+            "@type": "NominalVoltage",
+            "hasNumericalPart": {
+                "@type": "RealData",
+                "hasNumberValue": 3.2
+            },
+            "hasMeasurementUnit": "emmo:Volt"
+        }
+    ]
+
+    
+}

@@ -1,0 +1,51 @@
+{
+    "@context": "https://w3id.org/emmo/domain/battery/context",
+    "@type": "csvw:TableSchema",
+    "csvw:columns": [
+      {
+        "@type": "csvw:Column",
+        "csvw:name": "test_time_millisecond",
+        "csvw:titles": "Test Time  /  ms",
+        "csvw:propertyUrl": {
+          "@type": "TestTime"
+        },
+        "hasMeasurementUnit": [
+          {
+            "@id": "emmo:MilliSecond"
+          }
+        ],
+        "csvw:datatype": "xsd:decimal",
+        "csvw:required": "true"
+      },
+      {
+        "@type": "csvw:Column",
+        "csvw:name": "voltage_volt",
+        "csvw:titles": "Voltage  /  V",
+        "csvw:propertyUrl": {
+          "@type": "Voltage"
+        },
+        "hasMeasurementUnit": [
+          {
+            "@id": "emmo:Volt"
+          }
+        ],
+        "csvw:datatype": "xsd:decimal",
+        "csvw:required": "true"
+      },
+      {
+        "@type": "csvw:Column",
+        "csvw:name": "current_ampere",
+        "csvw:titles": "Current  /  A",
+        "csvw:propertyUrl": {
+          "@type": "ElectricCurrent"
+        },
+        "hasMeasurementUnit": {
+            "@id": "emmo:Ampere"
+        },
+        "csvw:datatype": "xsd:decimal",
+        "csvw:required": "true"
+      }
+    ],
+    "csvw:primaryKey": "test_time_millisecond"
+  }
+  
