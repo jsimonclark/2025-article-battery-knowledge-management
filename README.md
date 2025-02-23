@@ -31,8 +31,8 @@ Then navigate to the notebooks/ directory and open a notebook of interest.
 ```graphql
 @article{your_paper_citation,
   title={Semantic Resources for Managing Knowledge in Battery Research},
-  author={Your Name, Co-Authors},
-  journal={Your Journal},
+  author={Simon Clark, Corsin Battaglia, Ivano E. Castelli, Eibar Flores, Lukas Gold, Christian Punckt, Simon Stier, Philipp Veit},
+  journal={ChemSusChem},
   year={2025},
   doi={10.XXXX/YYYY}
 }
