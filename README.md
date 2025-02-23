@@ -1,4 +1,4 @@
-# 2025-article-battery-knowledge-management
+# Semantic Resources for Managing Knowledge in Battery Research
 A repository containing resources linked with the article, "Semantic Resources for Managing Knowledge in Battery Research."
 
 ## Getting Started
